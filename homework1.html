@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .back {
+
+        background-color: deepskyblue;
+        height: 320px;
+        width: 600px;
+        margin: 100px auto;
+        position: relative;
+        text-align: center;
+
+    }
+
+    .child1 {
+
+        background-color: rgb(0, 89, 185);
+        width: 300px;
+        height: 100px;
+        border-radius: 20px;
+        line-height: 100px;
+        position: absolute;
+        left: 25%;
+        top: 16%;
+
+
+    }
+
+    .left {
+        width: 220px;
+        height: 80px;
+        background-color: royalblue;
+        display: inline-block;
+        border-radius: 20px;
+        line-height: 80px;
+
+
+    }
+
+    .right {
+        width: 220px;
+        height: 80px;
+        background-color: royalblue;
+        display: inline-block;
+        border-radius: 20px;
+        line-height: 80px;
+
+    }
+
+    .down {
+        width: 600px;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 215px;
+        text-align: center;
+    }
+
+    .text {
+        width: 600px;
+        position: absolute;
+        top: 150px;
+        text-align: center;
+        height: 60px;
+
+    }
+</style>
+
+<body>
+    <div class="back">
+        <h2>我是个h2,跑到中间来了哟</h2>
+        <div class="child1">我不仅垂直居中，我的框框还是圆角的</div>
+        <div class="text">
+            <h4> 上面的圆角框大小是300*100px噢,而且我跟上下都相距20px</h4>
+        </div>
+
+
+        <div class="down">
+
+            <span class="left">我是220px*80px的左护法</span>
+            <h4>整个蓝色的大框是600px*320px</h4>
+            <span class="right">我是220px*80px的右护法</span>
+        </div>
+    </div>
+
+</body>
+
+</html>
